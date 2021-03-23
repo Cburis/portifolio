@@ -240,9 +240,9 @@ header{
 .conhecimentos{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(6, 6rem);
+    grid-template-rows: repeat(6, 7rem);
     row-gap: .5rem;
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .conhecimento:nth-child(1){
@@ -325,7 +325,9 @@ header{
     object-fit: cover;
     width: 100%;
 }
-
+.sessao-projetos{
+    height: 100vh;
+}
 .projetos{
     margin-top: 3em;
     display: flex;
@@ -333,8 +335,8 @@ header{
 }
 
 .card{
-    width: 17rem;
-    height: 26rem;
+    width: 24rem;
+    height: 36rem;
     position: relative;
     margin-bottom: 1em;
 }
@@ -342,8 +344,8 @@ header{
 .card-img-wrapper{
     width: 100%;
     height: 100%;
-    background-color: rgba#4b4b4b99;
-    border-radius: .5rem;
+    background-color: rgba#05050599;
+    border-radius: 1rem;
 }
 
 .card-img-wrapper img{
@@ -355,7 +357,7 @@ header{
     transition: opacity .3s;
 }
 .card:hover .card-img-wrapper{
-    opacity: 9;
+    opacity: 10;
 }
 .card-info{
     position: absolute;
@@ -363,14 +365,14 @@ header{
     opacity: 0;
     visibility: hidden;
     padding: 1.5rem;
-    text-shadow: 0.3rem 0.1rem 0.3rem rgba(0,0,0,90e);
+    text-shadow: 0.3rem 0.1rem 0.3rem rgba(0,0,0,900);
     transition: all .3s;
     
 }
 
 .card-info h2{
     font-family: var(--font-primary);
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 500;
     color: #eee;
     line-height: 1.7rem;
@@ -380,8 +382,8 @@ header{
 .card-info h3{
     font-family: var(--font-primary);
     font-weight: 500;
+    font-size: 1.5rem;
     color:rgba(11, 132, 213) ;
-    margin-bottom: 1;
 }
 
 
@@ -401,7 +403,7 @@ header{
     border-radius: .5rem;
     border: none;
     box-shadow:  0 .1rem .8rem rgba(0,0,0,.4);
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .card-info button{
     width: 8rem;
